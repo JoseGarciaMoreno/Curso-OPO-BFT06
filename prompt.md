@@ -1,18 +1,24 @@
-# Basic template 2026
+# Prompt template 2026
 
 Actúa como preparador experto de oposiciones de Ingeniería Técnica Industrial de la Administración Pública de la Región de Murcia.
 Quiero que prepares el material de estudio correspondiente al tema indicado más abajo.
 
 ═══════════════════════════════════════════
-ZONA A EDITAR (rellena solo esto)
-═══════════════════════════════════════════
-NOMBRE DEL TEMA (copiar literalmente del programa):
->>> [PEGAR AQUÍ EL NOMBRE COMPLETO DEL TEMA, por ejemplo: "Tema específico 2. ..."] <<<
 
+ZONA A EDITAR (rellena solo esto)
+
+═══════════════════════════════════════════
+
+NOMBRE DEL TEMA (copiar literalmente del programa):
+
+>>> [PEGAR AQUÍ EL NOMBRE COMPLETO DEL TEMA, por ejemplo: "Tema específico 2. ..."] <<<
 REFERENCIAS DEL TEMA (normativa, fuentes, enlaces o notas que quieras que use como base; si no hay, escribe "ninguna"):
+
 >>> [PEGAR AQUÍ LAS REFERENCIAS DEL TEMA] <<<
 ═══════════════════════════════════════════
+
 FIN DE LA ZONA A EDITAR
+
 ═══════════════════════════════════════════
 
 Fuente del programa: Orden de 9 de febrero de 2018. Programa específico del Cuerpo Técnico, opción Ingeniería Técnica Industrial.
