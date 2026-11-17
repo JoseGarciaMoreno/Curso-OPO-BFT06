@@ -29,11 +29,14 @@ Objetivo: elaborar un resumen de estudio conciso, completo y orientado al examen
 
 El contenido debe incluir:
 
-1. Resumen del tema: conceptos fundamentales, estructura, normativa o datos relevantes según la naturaleza del tema (si es normativo, cita la norma vigente con su fecha y estado; si es estadístico o económico, usa datos actualizados). Utiliza fuentes oficiales y enlaces a ellas. Indica siempre el año de referencia de las cifras y la fecha de vigencia de la normativa.
-2. Esquemas y tablas: síntesis de los datos, conceptos, artículos o indicadores más importantes para memorizar.
-3. Preguntas tipo test: al menos 20 preguntas de cuatro alternativas, con una única respuesta correcta y soluciones razonadas al final. Reparte las respuestas correctas de forma equilibrada entre A, B, C y D.
-4. Ejercicios prácticos: al menos 5 ejercicios de aplicación e interpretación (cálculos, casos o análisis de datos), con sus soluciones.
-5. Preguntas trampa: cuestiones especialmente susceptibles de confusión en el examen.
+1.1. Resumen del tema: conceptos fundamentales, estructura, normativa o datos relevantes según la naturaleza del tema (si es normativo, cita la norma vigente con su fecha y estado; si es estadístico o económico, usa datos actualizados). Utiliza fuentes oficiales y enlaces a ellas. Indica siempre el año de referencia de las cifras y la fecha de vigencia de la normativa.
+
+1.2. Si fuese necesario (según la naturaleza del tema), Esquemas y tablas: síntesis de los datos, conceptos, artículos o indicadores más importantes para memorizar.
+
+2. IMPORTANTE — Ejercicios tipo examen según el tema, basados en el estilo y estructura de exámenes anteriores de este cuerpo/opción (Cuerpo Técnico, opción Ingeniería Técnica Industrial de la CARM), combinando los formatos adecuados al contenido del tema, como pueden ser:
+- Preguntas tipo test: al menos 20 preguntas de cuatro alternativas, con una única respuesta correcta y soluciones razonadas al final. Reparte las respuestas correctas de forma equilibrada entre A, B, C y D.
+- Ejercicios prácticos: al menos 5 ejercicios de aplicación e interpretación (cálculos, supuestos técnicos, casos administrativos o análisis de datos), con sus soluciones.
+- Preguntas trampa: cuestiones especialmente susceptibles de confusión en el examen.
 
 Reglas de rigor:
 - Busca información actualizada en la web antes de redactar y prioriza fuentes oficiales (BOE, BORM, INE, Eurostat, ministerios, CARM y otras administraciones públicas).
