@@ -1,169 +1,51 @@
 # Basic template 2026
-Godot Engine 3.5 video game template: 
 
-https://onehourgamejam.com/
-
-Juegos Chatarra Estudio (Video Games):
-
-Versión Jam con 2d: https://github.com/Chatarra-Estudio/basic_template_26/tree/820890bb9a96262615ba7cfade33324731d8ef9d
-
----------------------------------------------------------------------------------------------------------
-
-
-Mis recomendaciones: Modelos 3D
-
-https://free3d.com/es/modelos-3d/lowpoly-cars
-
-https://app.sloyd.ai/collections/7d18  (registro, ¿genera? colección con low poly)
-
-https://formy3d.com/es (sin registro solo maya y por créditos)
-
-https://supavoxel.com/es (por creditos)
-
-https://www.ai3dgen.com/es/image-to-3d-model-free#free-trial (sin registro solo maya)
-
-https://trellis3d.co/online
-
-Solo maya?:  https://hy3d.dev/?utm_source=chatgpt.com
-
-Para muchas fotos: https://app.eyescloud3d.com/ 
-
-Modelos pesados y creditos: https://www.hitem3d.ai/home
-
-Probando: https://huggingface.co/spaces/ashawkey/LGM
-
----------------------------------------------------------------------------------------------------------
-
-Cuidado: cambio de pantalla en el HUD
-
-https://github.com/Chatarra-Estudio/basic_template_26/commit/e10285ba352d18c7778cbe97fb7c40b2e5be92bd
-
-2D Variante:
-
-
-[https://github.com/Chatarra-Estudio/basic_template_26/tree/2f561726addc7b47ed018767a877eaca1e16e3a9](https://github.com/Chatarra-Estudio/basic_template_26/tree/9f0b88142e0a43321873e6f513a90ad065d1c626)
-
-
----------------------------------------------------------------------------------------------------------
-
-Algunos Modelos:
-
-
-https://github.com/Chatarra-Estudio/basic_template_26/tree/2f561726addc7b47ed018767a877eaca1e16e3a9
-
-https://github.com/Chatarra-Estudio/Virtual-Joytick-3d/blob/main/modelos/modelos.md
-
-Personajes planos : enanos bombero neo ...
-
-https://github.com/Chatarra-Estudio/basic_template_26/tree/a2b5c4c08261ddbe758873b27795f11bf7e79301
-
-
----------------------------------------------------------------------------------------------------------
-
-Por archivar:
-
-Fondos horizontal techos noche 
-
-https://github.com/Chatarra-Estudio/basic_template_26/blob/64b29606bcb58200c37cf073d532f1d75752a603/basic/2d-imagen/fondo.jpg
-
-Fondos horizontal catacumbas esqueleto
-
-https://github.com/Chatarra-Estudio/basic_template_26/blob/6b5d43706300f801fd897c504e6bb694894a91e7/basic/2d-imagen/fondo.jpg
-
-Fondos para 3D lava
-
-https://github.com/Chatarra-Estudio/basic_template_26/blob/2e8d4edfdbd3616a851d3652ebb355bcafc070a7/basic/2d-imagen/fondo.jpg
-
----------------------------------------------------------------------------------------------------------
-
-03-10-2026
-
-https://github.com/Chatarra-Estudio/basic_template_26/tree/41270d87e206b2271df8c5792972ecf10d52eec3 para coches
-
----------------------------------------------------------------------------------------------------------
-
-Game´s name: https://josegarciamoreno.github.io/Chatarra-Estudio/landing2026/0228-ohgj566/matrix.html
-Game Jam: One Hour Game Jam  567th
-
-Theme: Wizards
-
-Date: March 7th 2026
-
-Play / Jugar:  Uno 
-
-Proyect production: unas 2 horas.
-
-Template: Plantilla 2026 básica General 1.3
-
-AI production:
-
-we start with the car.
-
-https://josegarciamoreno.github.io/Chatarra-Estudio/landing2026/0117-v0/coche0.html
-
-Imagen calabera game over
-
-https://raw.githubusercontent.com/Chatarra-Estudio/basic_template_26/5eb9ed90871d4d30158b478ac71c7953faeeabb8/basic/2d-imagen/game.png
-
-https://chatarra-estudio.github.io/ 
-
-https://josegarciamoreno.github.io/Chatarra-Estudio/landing2026/enano/gibli.html
-
-
----------------------------------------------------------------------------------------------------------
-
-The template is based on the official Godot demo (link). We start with the vehicle physics.
----------------------------------------------------------------------------------------------------------
-Agradecimientos:
----------------------------------------------------------------------------------------------------------
-
----------------------------------------------------------------------------------------------------------
-
-# Truck Town
-This is a demo implementing different types of trucks of
-varying complexity using vehicle physics.
-
-Controls:
-
-- <kbd>Up Arrow</kbd>, <kbd>W</kbd>, <kbd>Gamepad Right Trigger</kbd>, <kbd>Gamepad A/Cross</kbd>: Accelerate
-- <kbd>Down Arrow</kbd>, <kbd>S</kbd>, <kbd>Gamepad Left Trigger</kbd>, <kbd>Gamepad B/Circle</kbd> : Brake
-- <kbd>Left Arrow</kbd>, <kbd>Gamepad Left Stick</kbd>: Steer left
-- <kbd>Right Arrow</kbd>, <kbd>Gamepad Left Stick</kbd>: Steer right
-- <kbd>U</kbd>, <kbd>Gamepad Select</kbd>, left-click speedometer: Change speedometer unit (m/s, km/h, mph)
-- <kbd>C</kbd>, <kbd>Gamepad Y/Triangle</kbd>: Change camera (exterior, interior, top-down)
-- <kbd>Escape</kbd>, <kbd>Gamepad D-Pad Up</kbd>: Go back to menu (press again to exit)
-
-Language: GDScript
-
-Renderer: Forward Plus
-
-Check out this demo on the asset library: https://godotengine.org/asset-library/asset/524
-
-## How does it work?
-
-The base vehicle uses a
-[`VehicleBody`](https://docs.godotengine.org/en/latest/classes/class_vehiclebody.html)
-node. The trailer truck is tied together using a
-[`ConeJointTwist`](https://docs.godotengine.org/en/latest/classes/class_conetwistjoint.html)
-node, and the tow truck is tried together using a chain made of
-[`RigidBody`](https://docs.godotengine.org/en/latest/classes/class_rigidbody.html)
-nodes which are pinned together using
-[`PinJoint`](https://docs.godotengine.org/en/latest/classes/class_pinjoint.html) nodes.
-
-## Screenshots
-
-<img src="https://raw.githubusercontent.com/godotengine/godot-demo-projects/ad2cdfebd46c1e50dac5b14134fbadbef15076e8/3d/truck_town/screenshots/truck_town.webp" width="700">
-
--------------------------------------------------------------------------------------------------------
-
-
-# Blender
-
-https://www.blender.org/ 
-
----------------------------------------------------------------------------------------------------------
-
-El germen del proyecto ...
-
-https://chatarra-estudio.github.io/ 
+Actúa como preparador experto de oposiciones de Ingeniería Técnica Industrial de la Administración Pública de la Región de Murcia.
+Quiero que prepares el material de estudio correspondiente al tema indicado más abajo.
+
+═══════════════════════════════════════════
+ZONA A EDITAR (rellena solo esto)
+═══════════════════════════════════════════
+NOMBRE DEL TEMA (copiar literalmente del programa):
+>>> [PEGAR AQUÍ EL NOMBRE COMPLETO DEL TEMA, por ejemplo: "Tema específico 2. ..."] <<<
+
+REFERENCIAS DEL TEMA (normativa, fuentes, enlaces o notas que quieras que use como base; si no hay, escribe "ninguna"):
+>>> [PEGAR AQUÍ LAS REFERENCIAS DEL TEMA] <<<
+═══════════════════════════════════════════
+FIN DE LA ZONA A EDITAR
+═══════════════════════════════════════════
+
+Fuente del programa: Orden de 9 de febrero de 2018. Programa específico del Cuerpo Técnico, opción Ingeniería Técnica Industrial.
+
+Objetivo: elaborar un resumen de estudio conciso, completo y orientado al examen, seguido de ejercicios de entrenamiento.
+
+El contenido debe incluir:
+
+1. Resumen del tema: conceptos fundamentales, estructura, normativa o datos relevantes según la naturaleza del tema (si es normativo, cita la norma vigente con su fecha y estado; si es estadístico o económico, usa datos actualizados). Utiliza fuentes oficiales y enlaces a ellas. Indica siempre el año de referencia de las cifras y la fecha de vigencia de la normativa.
+2. Esquemas y tablas: síntesis de los datos, conceptos, artículos o indicadores más importantes para memorizar.
+3. Preguntas tipo test: al menos 20 preguntas de cuatro alternativas, con una única respuesta correcta y soluciones razonadas al final. Reparte las respuestas correctas de forma equilibrada entre A, B, C y D.
+4. Ejercicios prácticos: al menos 5 ejercicios de aplicación e interpretación (cálculos, casos o análisis de datos), con sus soluciones.
+5. Preguntas trampa: cuestiones especialmente susceptibles de confusión en el examen.
+
+Reglas de rigor:
+- Busca información actualizada en la web antes de redactar y prioriza fuentes oficiales (BOE, BORM, INE, Eurostat, ministerios, CARM y otras administraciones públicas).
+- No inventes datos, artículos, fechas ni cifras. Si no puedes verificar algo, indícalo expresamente en lugar de rellenarlo.
+- Marca con el símbolo † las cifras que procedan de fuentes secundarias (prensa, fundaciones, informes que citan a la fuente oficial) para que se contrasten.
+- Distingue las preguntas oficiales de las propuestas para el curso. No atribuyas ninguna pregunta a un examen oficial sin haberlo comprobado. Si no has verificado ninguna, dilo y etiqueta todas las preguntas y ejercicios como PROPUESTA-CURSO (elaboración propia).
+- Indica la fecha de actualización del material al inicio.
+- Si algún dato proviene de una serie que se revisa o de una norma en tramitación, señala su carácter provisional o su estado.
+
+Referencias para mantener la coherencia con el curso ya publicado (úsalas como modelo de estilo, estructura y nivel de síntesis):
+
+* Repositorio: https://github.com/JoseGarciaMoreno/Curso-OPO-BFT06
+* Portada: https://github.com/JoseGarciaMoreno/Curso-OPO-BFT06/wiki
+* UD1. La Constitución Española de 1978: https://github.com/JoseGarciaMoreno/Curso-OPO-BFT06/wiki/UD-1
+* UD2. La Administración Pública y la Administración Regional de Murcia: https://github.com/JoseGarciaMoreno/Curso-OPO-BFT06/wiki/UD2.-La-Administraci%C3%B3n-P%C3%BAblica
+* Tema específico 1 ya publicado (modelo de formato, en particular de las preguntas de ejemplo): https://github.com/JoseGarciaMoreno/Curso-OPO-BFT06/wiki/UD-00-Tema-espec%C3%ADfico-1.-La-industria-espa%C3%B1ola:-evoluci%C3%B3n-y-caracter%C3%ADsticas-actuales
+
+Formato de entrega:
+- Proporciona exclusivamente el código Markdown completo, en un único bloque de código, listo para copiar y publicar en GitHub Wiki. No añadas texto fuera del bloque.
+- Mantén un estilo, estructura y nivel de síntesis coherentes con las unidades anteriores.
+- RESTRICCIÓN DE ENCABEZADOS: el documento debe tener un único título con "#" (el nombre del tema, en la primera línea). No uses ningún otro encabezado con "#", "##", "###" ni niveles inferiores, para no sobrecargar el índice lateral de GitHub. Estructura el resto del contenido con texto en negrita, listas, tablas y separadores "---". Esta restricción incluye las secciones de preguntas de ejemplo, test, ejercicios, preguntas trampa y soluciones.
+- Antes de entregar, comprueba que en todo el Markdown solo existe una línea que empiece por "#".
 
