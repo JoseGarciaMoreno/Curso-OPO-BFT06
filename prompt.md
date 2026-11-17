@@ -12,6 +12,7 @@ ZONA A EDITAR (rellena solo esto)
 NOMBRE DEL TEMA (copiar literalmente del programa):
 
 >>> [PEGAR AQUÍ EL NOMBRE COMPLETO DEL TEMA, por ejemplo: "Tema específico 2. ..."] <<<
+
 REFERENCIAS DEL TEMA (normativa, fuentes, enlaces o notas que quieras que use como base; si no hay, escribe "ninguna"):
 
 >>> [PEGAR AQUÍ LAS REFERENCIAS DEL TEMA] <<<
